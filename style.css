@@ -1,0 +1,37 @@
+
+/* Стили по тегам */
+body { 
+    color: #f0f8ff;
+    background: #222;
+}
+
+table {
+    margin: 0px 0px 10px 10px; /* top right bottom left */
+    border-collapse: collapse;
+}
+
+td {
+    color: #0DCAF0;
+    border: 1px solid #0DCAF0;
+    padding: 3px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+button {
+    margin: 10px 0 10px 10px; /* top right bottom left */
+}
+
+
+/* Стили скроллбара */
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    border: 0;
+    background-color: #0dcaf0;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+    background-color: #212529;
+}
