@@ -41,7 +41,7 @@ function addRandNum(randNum = false) {
 }
 
 
-// Создаём таблицу
+// Создаём таблицу на основе массива
 for(let index in randomNums) {
     if(index % 5 === 0) {
         tbody.innerHTML += "<tr></tr>";
